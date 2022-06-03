@@ -934,7 +934,9 @@ span.empty1 {
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 380px) and (max-width: 767px) {
+
+
+@media (min-width: 320px) and (max-width: 767px) {
   .left-header img {
     width: 142px;
     margin-top: -10px;
@@ -1117,6 +1119,21 @@ span.empty1 {
 
   .deals {
     grid-template-columns: repeat(auto-fit, minmax(447px, 1fr));
+  }
+}
+
+@media (min-width: 320px) and (max-width: 379px) {
+  .navbar-brand {
+    width: 68% !important;
+  }
+
+  .navbar-brand img {
+    width: 93% !important;
+    margin-top: -10px !important;
+  }
+
+  .subscribe input {
+    padding: 7px 6px !important;
   }
 }
 
