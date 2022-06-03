@@ -23,10 +23,10 @@ class NavbarMake extends Component {
               // style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Link href="/">Home</Link>
-              <Link href="/products">Products</Link>
-              <Link href="/about">About</Link>
-              <Link href="/contactUs">Contact Us</Link>
+             <Link to='/'>Home</Link>
+              <Link to='/products'>Products</Link>
+              <Link to='/about'>About</Link>
+              <Link to='/contactUs'>Contact Us</Link>
             </Nav>
             <Form className="d-flex right-nav">
               <Link className='btn-slide-left' to='/login'><FaUser></FaUser> Login</Link>
